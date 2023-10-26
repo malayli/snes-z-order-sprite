@@ -331,8 +331,8 @@ int main(void) {
 
         if (spriteIndex == 0) {
             playerIndex = spriteObjIndex;
-            objSprites[spriteObjIndex + 1] = 64;
-            objSprites[spriteObjIndex + 2] = 200;
+            objSprites[spriteObjIndex + 1] = 80;
+            objSprites[spriteObjIndex + 2] = 148;
             objSprites[spriteObjIndex + 5] = 0;
             line += 16;
 
@@ -341,7 +341,7 @@ int main(void) {
             objSprites[spriteObjIndex + 2] = line;    
             objSprites[spriteObjIndex + 5] = spriteIndex%2 + 1;
 
-            if (spriteIndex % 11 == 0) {
+            if (spriteIndex % 8 == 0) {
                 column += 16;
                 line = 16;
 
